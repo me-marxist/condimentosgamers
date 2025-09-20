@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Microforum 2000s</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔥 Microforum 2000s 🔥</h1>
+
+    <!-- Login / Cadastro -->
+    <div id="auth-section">
+      <h2>Login / Cadastro</h2>
+      <form id="loginForm">
+        <input type="text" placeholder="Usuário" id="username" required>
+        <input type="password" placeholder="Senha" id="password" required>
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+
+    <!-- Feed -->
+    <div id="feed-section" style="display:none;">
+      <h2>Feed</h2>
+      <textarea id="postContent" placeholder="Escreva algo insano..."></textarea>
+      <button onclick="postar()">Postar</button>
+      <div id="feed"></div>
+
+      <h2>Chat com os manos</h2>
+      <div id="chat-box"></div>
+      <input type="text" id="chatInput" placeholder="Digite sua mensagem...">
+      <button onclick="sendMessage()">Enviar</button>
+
+      <h2>Perfil</h2>
+      <form id="profileForm">
+        <input type="text" id="profileName" placeholder="Nome de exibição">
+        <input type="file" id="profilePic">
+        <button type="submit">Salvar Perfil</button>
+      </form>
+      <div id="profile"></div>
+    </div>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

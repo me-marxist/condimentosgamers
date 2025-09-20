@@ -1,0 +1,26 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background: black url('https://i.imgur.com/Oa1nK.gif') repeat;
+  color: lime;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(0,0,0,0.8);
+  border: 3px solid magenta;
+  border-radius: 8px;
+}
+h1 {
+  text-align: center;
+  color: cyan;
+  text-shadow: 2px 2px 5px red;
+}
+#chat-box {
+  background: #111;
+  border: 2px dashed lime;
+  height: 200px;
+  overflow-y: scroll;
+  padding: 5px;
+  margin-bottom: 10px;
+}
